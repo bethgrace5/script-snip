@@ -1,1 +1,14 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <button mat-flat-button routerLink="/dashboard">
+      <span>{{title}}</span>
+      <mat-icon class="example-icon">favorite_border</mat-icon>
+    </button>
+    <span class="example-spacer"></span>
+    <button routerLink="/scripts" mat-raised-button color="accent">
+      Scripts
+      <mat-icon class="example-icon">code</mat-icon>
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>
 <router-outlet></router-outlet>
