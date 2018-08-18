@@ -1,10 +1,13 @@
+import { ScriptsScreenComponent } from './scripts-screen.component';
+
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ScriptsScreenComponent } from './scripts-screen.component';
+import { ScriptCardModule } from '../script-card/script-card.module';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    ScriptCardModule,
   ],
   declarations: [ScriptsScreenComponent]
 })

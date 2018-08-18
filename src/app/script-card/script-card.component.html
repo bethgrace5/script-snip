@@ -1,0 +1,7 @@
+<mat-card>
+  {{script.command}}
+  <div *ngFor="let flag of script.flags">
+    {{flag}}
+  </div>
+  <button (click)="copyToClipboard($event)" color="accent" mat-raised-button>copy!</button>
+</mat-card>
