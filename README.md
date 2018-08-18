@@ -4,6 +4,9 @@ Create snippets of scripts to easily copy to clipboard with optional flags/argum
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
+## Contribution Guidelines
+https://github.com/bethgrace5/script-snip/wiki/Contribution-Guidelines
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
