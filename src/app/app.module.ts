@@ -7,6 +7,8 @@ import { DashboardScreenModule } from './dashboard-screen/dashboard-screen.modul
 import { MatButtonModule, MatIconModule, MatToolbarModule } from '@angular/material';
 import { NgModule } from '@angular/core';
 import { ScriptsScreenModule } from './scripts-screen/scripts-screen.module';
+import { ClipboardModule } from 'ngx-clipboard';
+
 
 @NgModule({
   declarations: [
@@ -16,6 +18,7 @@ import { ScriptsScreenModule } from './scripts-screen/scripts-screen.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     BrowserModule,
+    ClipboardModule,
     DashboardScreenModule,
     MatButtonModule,
     MatIconModule,
