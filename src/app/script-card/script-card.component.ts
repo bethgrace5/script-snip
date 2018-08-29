@@ -9,9 +9,13 @@ import { Script } from '../models/script';
 export class ScriptCardComponent implements OnInit {
   @Input() script: Script;
 
+  textToCopy: string
+
   constructor() { }
 
   ngOnInit() {
+    console.log("init")
+    this.textToCopy = "Copied text!!";
   }
 
   public copyToClipboard() {
