@@ -15,7 +15,7 @@ export class ScriptCardComponent implements OnInit {
 
   ngOnInit() {
     console.log("init")
-    this.textToCopy = "Copied text!!";
+    this.scriptAndFlag = this.script.command + this.script.flags
   }
 
   public copyToClipboard() {

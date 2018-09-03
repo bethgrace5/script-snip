@@ -3,8 +3,6 @@
   <div *ngFor="let flag of script.flags">
     {{flag}}
   </div>
-  <button ngxClipboard [cbContent]="textToCopy" (click)="copyToClipboard($event)" color="accent"  mat-raised-button>copy!</button>
-
-  <td><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Liliumbulbiferumflowertop.jpg/220px-Liliumbulbiferumflowertop.jpg' (click)="copyToClipboard()" ngxClipboard [cbContent]="textToCopy" /></td> 
+  <button ngxClipboard [cbContent]="scriptAndFlag" (click)="copyToClipboard($event)" color="accent"  mat-raised-button>copy!</button>
 
 </mat-card>
